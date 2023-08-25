@@ -65,6 +65,7 @@ btnDemarrer.addEventListener("mouseover", ()=>
 });
 btnHamConnexion.addEventListener("mouseover", ()=>
 {
+    console.log(btnHamConnexion.children[0])
     btnHamConnexion.children[0].remove();
     btnHamConnexion.appendChild(rightArr);
 });
@@ -87,6 +88,9 @@ btnHamConnexion.addEventListener("mouseout", ()=>
 let ham_menu = document.querySelector(".ham-menu");
 let close_ham = document.querySelector(".ham-btn-close");
 let ham_submenu = document.querySelector(".ham-submenu");
+
+
+
 close_ham.addEventListener("click", ()=>
 {
     ham_submenu.style = "display: none;"
@@ -95,3 +99,11 @@ ham_menu.addEventListener("click", ()=>
 {
     ham_submenu.style = "display: block;"
 });
+
+window.addEventListener("resize", ()=>
+{
+    if(window.innerWidth > 850)
+    {
+        ham_submenu.style = "display: none;"
+    }
+})

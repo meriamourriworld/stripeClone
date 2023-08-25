@@ -237,6 +237,15 @@ a.connexion:hover
 {
     background-color: #011e3c;
 }
+.ham-submenu-connexion:not(:hover) i
+{
+    animation: arrowMoveBackward .3s linear forwards;
+}
+
+.ham-submenu-connexion:hover i
+{
+    animation: arrowMoveForward .3s linear forwards;
+}
 .submenu-solutions
 {
     color: #1b1b1b;
@@ -1299,6 +1308,7 @@ a.connexion:hover
     {
         width: 100%;
     }
+    
 }
 @media (max-width:950px) 
 {
@@ -1381,6 +1391,10 @@ a.connexion:hover
     {
         grid-template-columns: repeat(2, 1fr);
     }
+    .ham-submenu
+    {
+        width: 80%; 
+    }
 }
 
 @media (max-width:780px) 
@@ -1414,5 +1428,9 @@ a.connexion:hover
     .processus1:hover .processus-image
     {
         height: 50%;
+    }
+    .ham-submenu
+    {
+        width: 90%; 
     }
 }
