@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strike</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&family=Encode+Sans+SC:wght@600&family=Source+Code+Pro:wght@400;500;600&family=Encode+Sans+SC:wght@600&family=Encode+Sans+Expanded:wght@400;500&family=Source+span+Pro:wght@600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="outer-header">
+        <header>
+            <div class="menu-left">
+                <div id="logo"><svg viewBox="0 0 60 25" xmlns="http://www.w3.org/2000/svg" width="60" height="25" class="UserLogo variant-- "><title>Stripe logo</title><path fill="#fff" d="M59.64 14.28h-8.06c.19 1.93 1.6 2.55 3.2 2.55 1.64 0 2.96-.37 4.05-.95v3.32a8.33 8.33 0 0 1-4.56 1.1c-4.01 0-6.83-2.5-6.83-7.48 0-4.19 2.39-7.52 6.3-7.52 3.92 0 5.96 3.28 5.96 7.5 0 .4-.04 1.26-.06 1.48zm-5.92-5.62c-1.03 0-2.17.73-2.17 2.58h4.25c0-1.85-1.07-2.58-2.08-2.58zM40.95 20.3c-1.44 0-2.32-.6-2.9-1.04l-.02 4.63-4.12.87V5.57h3.76l.08 1.02a4.7 4.7 0 0 1 3.23-1.29c2.9 0 5.62 2.6 5.62 7.4 0 5.23-2.7 7.6-5.65 7.6zM40 8.95c-.95 0-1.54.34-1.97.81l.02 6.12c.4.44.98.78 1.95.78 1.52 0 2.54-1.65 2.54-3.87 0-2.15-1.04-3.84-2.54-3.84zM28.24 5.57h4.13v14.44h-4.13V5.57zm0-4.7L32.37 0v3.36l-4.13.88V.88zm-4.32 9.35v9.79H19.8V5.57h3.7l.12 1.22c1-1.77 3.07-1.41 3.62-1.22v3.79c-.52-.17-2.29-.43-3.32.86zm-8.55 4.72c0 2.43 2.6 1.68 3.12 1.46v3.36c-.55.3-1.54.54-2.89.54a4.15 4.15 0 0 1-4.27-4.24l.01-13.17 4.02-.86v3.54h3.14V9.1h-3.13v5.85zm-4.91.7c0 2.97-2.31 4.66-5.73 4.66a11.2 11.2 0 0 1-4.46-.93v-3.93c1.38.75 3.1 1.31 4.46 1.31.92 0 1.53-.24 1.53-1C6.26 13.77 0 14.51 0 9.95 0 7.04 2.28 5.3 5.62 5.3c1.36 0 2.72.2 4.09.75v3.88a9.23 9.23 0 0 0-4.1-1.06c-.86 0-1.44.25-1.44.9 0 1.85 6.29.97 6.29 5.88z" fill-rule="evenodd"></path></svg></div>
+                <nav id="menu">
+                        <li><a href="">Produits</a></li>
+                        <li  id="solutions">
+                            <a href="">Solutions</a>
+                            <div class="submenu-solutions">
+                                <div class="top-submenu-solutions">
+                                    <h4>cas d'usage</h4>
+                                    <div class="top-submenu-solutions-container">
+                                        <div class="top-submenu-solutions-left">
+                                            <a href=""><i class="fa-sharp fa-solid fa-building fa-xs"></i>Grandes Entreprises</a>
+                                            <a href=""><i class="fa-solid fa-recycle"></i>SaaS</a>
+                                            <a href=""><i class="fa-solid fa-shop"></i>Places de marché</a>
+                                            <a href=""><i class="fa-solid fa-lightbulb"></i>Économie créative</a>
+                                            <a href=""><i class="fa-solid fa-robot"></i>Automatisation des opérations financières</a>
+                                        </div>
+    
+                                        <div class="top-submenu-solutions-right">
+                                            <a href=""><i class="fa-solid fa-chalkboard"></i> Plateformes</a>
+                                            <a href=""><i class="fa-solid fa-bag-shopping"></i> E-commerce</a>
+                                            <a href=""><i class="fa-solid fa-money-check-dollar"></i> Cryptomonnaie</a>
+                                            <a href=""><i class="fa-solid fa-chart-pie"></i> Services financiers intégrés</a>
+                                            <a href=""><i class="fa-solid fa-globe"></i> Entreprises internationales</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="down-submenu-solutions">
+                                    <h4>intégrations et solutions personnalisées</h4>
+                                    <div class="down-submenu-solutions-container">
+                                        <div class="down-submenu-solutions-left">
+                                            <a href=""><i class="fa-solid fa-square-plus"></i> App Marketplace</a>
+                                            <a href=""><i class="fa-solid fa-comments"></i> Services aux entreprises</a>
+                                        </div>
+    
+                                        <div class="down-submenu-solutions-right">
+                                            <a href=""><i class="fa-solid fa-server"></i>Partner ecosystem</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="">Développeurs</a></li>
+                        <li><a href="">Ressources</a></li>
+                        <li><a href="">Tarifs</a></li>
+                </nav>
+            </div>
+            <div class="aside-menu">
+                <a href="">Contacter notre équipe <i class="fa-solid fa-angle-right"></i></a>
+                <a class="connexion" href="">Connexion <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="ham-menu"><i class="fa-solid fa-bars"></i></div>
+            <div class="ham-submenu">
+                <div class="ham-submenu-header">Strike<i class="ham-btn-close fa-solid fa-xmark"></i></div>
+                <div class="ham-submenu-option ham-submenu-produits">Produits<i class="fa-solid fa-chevron-right"></i></div>
+                <div class="ham-submenu-option ham-submenu-solutions">Solutions<i class="fa-solid fa-chevron-right"></i></div>
+                <div class="ham-submenu-option ham-submenu-developpeurs">Développeurs<i class="fa-solid fa-chevron-right"></i></div>
+                <div class="ham-submenu-option ham-submenu-ressources">Ressources<i class="fa-solid fa-chevron-right"></i></div>
+                <div class="ham-submenu-option ham-submenu-tarifs">Tarifs<i class="fa-solid fa-chevron-right"></i></div>
+                <div class="ham-submenu-option"><span class="ham-submenu-connexion"> Connexion<i class="fa-solid fa-chevron-right"></i></span></div>
+            </div>
+        </header>
+    <div class="separator"></div>
+    </div>
+
+    <main class="index-main">
+        <section class="intro">
+            <div class="description">
+                <h1>Une infrastructure<br> financière adaptée<br> à Internet</h1>
+                <p>
+                  Des millions d'entreprises de toutes tailles, des start-up aux entreprises du Fortune 500, utilisent le logiciel et les API de
+                   Stripe pour accepter des paiements, effectuer Des
+                    virements et gérer leurs activités en ligne. 
+                </p>
+                <a href="">Démarrer maintenant <i class="fa-solid fa-angle-right"></i></a>
+                <a href="">Contacter notre équipe <i class="fa-solid fa-angle-right"></i></a>
+              </div>
+
+              <div class="intro-illustration">
+                <img src="images/creditcard.png" alt="credit card">
+                <h5>Tableau de bord</h5>
+                <p>70$ US par semaine</p>
+                <div class="pay"><i class="fa-brands fa-apple"></i> Pay</div>
+                <hr>
+                <p>ou payez par carte</p>
+                <hr>
+
+                <div class="infos">
+                    <h6 class="email-label">E-mail</h6>
+                    <div class="email input"></div>
+                    <h6 class="infos-carte-label">Informations de la carte</h6>
+                    <div class="carte input"><i class="fa-brands fa-cc-visa"></i><i class="fa-brands fa-cc-mastercard"></i><i class="fa-brands fa-cc-amex"></i></div>
+                    <div class="carte-supplement input"><span class="date">MM/YY</span><span class="cvc">CVC span</span></div>    
+                    <h6 class="pays-label">Pays ou région</h6>
+                    <div class="pays input">États-Unis<i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="span-postal input">span postal</div>
+                </div>
+                <div class="pay payer">Payer</div>
+            </div>
+        </section>
+
+        <section class="nos-clients">
+            <img src="images/instacart-logo.png" alt="INSCACART">
+            <img src="images/winners.png" alt="AMAZON">
+            <img src="images/shopify.png" alt="SHOPIFY">
+            <img src="images/slack.png" alt="SLACK">
+            <img src="images/apple.png" alt="APPLE">
+            <img src="images/deezer.png" alt="DEEZER">
+        </section>
+
+        <section class="services">
+            <div class="services-wrapper">
+                <div class="services-text">
+                    <h1>Une suite de produits financiers et de gestion des paiements totalement intégrés</h1>
+                    <p>Réduisez vos coûts, augmentez votre chiffre d'affaires et gérez votre entreprise plus efficacement grâce à une plateforme entièrement intégrée. Utilisez Stripe pour gérer tous vos besoins en matière de paiement et de revenus et lancer (ou inventer) de nouveaux modèles économiques. </p>
+                    <p>Intégrez les paiements à votre plateforme ou place de marché pour offrir des expériences de paiement de bout en bout. </p>
+                </div>
+
+                <div class="services-path">
+                    <div class="path path1 hidden"><i class="fa-solid fa-burger"></i></div>
+                    <div class="path path2 scale"><i class="fa-solid fa-chart-pie"></i> <span class="path-desc">Capital</span></div>
+                    <div class="path path3 hidden"></div>
+                    <div class="path path4"><i class="fa-solid fa-hand-holding-dollar"></i><span class="path-desc">Payment</span></div>
+                    <div class="path path5"><i class="fa-solid fa-link"></i><span class="path-desc">Connect</span></div>
+                    <div class="path path6"><i class="fa-solid fa-leaf"></i><span class="path-desc">Climate</span></div>
+                    <div class="path path7"><i class="fa-solid fa-wallet"></i><span class="path-desc">Billing</span> </div>
+                    <div class="path path8"><i class="fa-solid fa-terminal"></i><span class="path-desc">Terminal</span> </div>
+                    <div class="path path9"><i class="fa-solid fa-id-card"></i><span class="path-desc">Identity</span> </div>
+                    <div class="path path10 hidden"></div>
+                    <div class="path path11"><i class="fa-solid fa-bug"></i><span class="path-desc">Issues</span> </div>
+                    <div class="path path12 hidden"></div>
+                </div>
+            </div>
+    </section>
+
+    <section class="processus">
+        <div class="processus-wrapper">
+            <div class="processus-text">
+                <h1>Développez votre entreprise plus rapidement</h1>
+                <p>Les start-up s'appuient sur Stripe pour se lancer plus rapidement, évoluer plus facilement et automatiser leurs workflows afin de faire mieux avec moins. Créez votre propre intégration API, ou utilisez nos solutions sans span ou nécessitant peu de span, faciles à implémenter et suffisamment puissantes pour s'adapter parfaitement à vos besoins. </p>
+            </div>
+
+            <div class="processus-path">
+                <div class="processus1">
+                    <div class="processus-image">
+                        <img src="images/processus1.PNG" alt="Valider Votre Idée">
+                    </div>
+                    
+                    <div class="card-processus-text">
+                        <span class="processus-link"><i class="fa-solid fa-wallet"></i> Payment Links</span>
+                        <div class="processus-description">
+                            <h2>Validez votre idée</h2>
+                            <p>Testez votre idée de produit en commençant à accepter des paiements sans span, ou avec très peu de span. </p>
+                            <a href="">Essayez notre approche ></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="processus1 processus2">
+                    <div class="processus-image">
+                        <img src="images/processus2.PNG" alt="Créez Votre Entreprise">
+                    </div>
+                    
+                    <div class="card-processus-text">
+                        <span class="processus-link"><i class="fa-solid fa-shapes"></i> Atlas Program</span>
+                        <div class="processus-description">
+                            <h2>Créez votre entreprise</h2>
+                            <p>Créez une entité juridique, émettez des actions et commencez à accepter des paiements.</p>
+                            <a href="">En savoir plus ></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="processus1 processus3">
+                    <div class="processus-image">
+                        <img src="images/processus3.PNG" alt="Vendez à des entreprises">
+                    </div>
+                    
+                    <div class="card-processus-text">
+                        <span class="processus-link"><i class="fa-solid fa-folder-open"></i> Invoicing</span>
+                        <div class="processus-description">
+                            <h2>Vendez à des entreprises</h2>
+                            <p>Lancez une entreprise B2B et encaissez les paiements ponctuels ou récurrents de vos clients.</p>
+                            <a href="">Découvrir Invoicing ></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="processus1 processus4">
+                    <div class="processus-image">
+                        <img src="images/processus4.PNG" alt="Vendez à des consommateurs">
+                    </div>
+                    
+                    <div class="card-processus-text">
+                        <span class="processus-link"><i class="fa-solid fa-cube"></i> Checkout</span>
+                        <div class="processus-description">
+                            <h2>Vendez à des consommateurs</h2>
+                            <p>Lancez une entreprises B2C avec une page de paiement préconfigurée et optimisée pour la conversion. </p>
+                            <a href="">Démarrer avec Checkout ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="doc-developpeurs">
+        <div class="separator-top"></div>
+        <div class="doc-dev-wrapper">
+            <div class="doc-dev-description">
+                <h1>Effectuez vos livraisons plus rapidement grâce à des API performantes et intuitives</h1>
+                <p>Économisez du temps et des ressources d'ingénierie avec une fonctionnalité de paiement unifiée. Pour permettre à vos équipes de réaliser votre vision sur une seule plateforme, nous prenons en compte toutes les spécificités de la myriade de passerelles, de rails de paiement et d'institutions financières qui composent le paysage économique mondial.</p>
+                <div class="btn-doc">Lire la documentation <i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+
+            <div class="doc-dev-illustration">
+                <div class="editor">
+                    <div class="codeRow"><span class="rowNumber">1</span> <span><span class="purple">const</span> stripe = <span class="turquois">require</span>(<span class="orange">'stripe'</span>)(<span class="orange">'sk_test_BQokikJ0vBi2Hl4olfQ'</span>);</span></div>
+                    <div><span class="rowNumber">2</span> </div>
+                    <div class="codeRow"><span class="rowNumber">3</span> <span><span class="purple">await</span> stripe.paymentIntents.<span class="turquois">create</span>({</span></div>
+                    <div class="codeRow"><span class="rowNumber">4</span> <span>amount: <span class="yellow">2000</span>,</span></div>
+                    <div class="codeRow"><span class="rowNumber">5</span> <span>currency: <span class="orange">'usd'</span></span></div>
+                    <div class="codeRow"><span class="rowNumber">6</span> <span>});</span></div>
+                    <div class="codeRow">|</div>
+                </div>
+
+                <div class="console-header">
+                    <div class="etiquettes"><span class="state">NORMAL</span> <span>server.js</span></div>
+                    <div class="console-options">100% <i class="fa-solid fa-bars"></i> 6/6 ln : 4</div>
+                </div>
+
+                <div class="console">
+                    <div class="exec-row-terminal"><span class="purple">$ </span> node server.js && stripe listen</div>
+                    <div class="exec-row-terminal">> Ready! Waiting for requests...</div>
+                    <div class="exec-row-terminal"><span class="terminal-date">2023-08-02 16:01:06</span> [ <span class="turquois">200</span> ] payment_intent.created</div>
+                    <div class="exec-row-terminal"><span class="terminal-date">2023-08-02 16:01:06</span> [ <span class="turquois">200</span> ] charge.succeeded</div>
+                    <div class="exec-row-terminal"><span class="terminal-date">2023-08-02 16:01:06</span> [ <span class="turquois">200</span> ] payment_intent.succeeded</div>
+                    <div class="exec-row-terminal"><span class="purple">$ </span> Waiting <span class="point1">.</span><span class="point2">.</span><span class="point3">.</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="dev-outils">
+            <div class="outil outil1">
+                <div class="animatedIcon">
+                    <svg class="AnimatedIcon__icon" width="96" height="96" preserveAspectRatio="xMinYMin" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" data-js-controller="TerminalIcon">
+                        <defs>
+                        <path id="terminalIconCode" d="M44 28a4 4 0 0 1 4 4v17a4 4 0 0 1-4 4H20a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h24zm-23.2 5.17l-.67.75a.5.5 0 0 0-.02.64l.06.06 3.29 2.92-3.3 2.92a.5.5 0 0 0-.03.7l.66.76c.18.2.5.22.7.04l4.97-4.42-4.96-4.41a.5.5 0 0 0-.7.04z"></path>
+                        <path id="terminalIconCursor" d="M27.64 40h6.72c.22 0 .3.02.38.07.09.04.15.1.2.19.04.08.06.16.06.38v.72c0 .22-.02.3-.07.38a.45.45 0 0 1-.19.2c-.08.04-.16.06-.38.06h-6.72c-.22 0-.3-.02-.38-.07a.45.45 0 0 1-.2-.19c-.04-.08-.06-.16-.06-.38v-.72c0-.22.02-.3.07-.38.04-.09.1-.15.19-.2.08-.04.16-.06.38-.06z"></path>
+                        <path id="terminalIconGear" d="M42.5 42l1.13 3.13.64.13 2.24-2.46.93.38-.16 3.33c.19.11.37.23.54.36l3.02-1.42.7.71-1.41 3.02c.13.17.25.35.36.54l3.33-.16.38.93-2.46 2.24c.05.21.1.42.13.64L55 54.5v1l-3.13 1.13c-.04.25-.1.5-.15.73l2.48 2.15-.38.93-3.28-.24c-.14.24-.3.47-.47.7l1.48 2.94-.71.7-2.94-1.47c-.23.17-.46.33-.7.47l.24 3.28-.93.38-2.15-2.48c-.27.06-.54.12-.82.16L42.5 68h-1l-1.04-3.12c-.28-.04-.55-.1-.82-.16l-2.15 2.48-.93-.38.24-3.28c-.24-.14-.47-.3-.7-.47l-2.94 1.48-.7-.71 1.47-2.94c-.17-.23-.33-.46-.47-.7l-3.28.24-.38-.93 2.48-2.15a9.95 9.95 0 0 1-.16-.82L29 55.5v-1l3.12-1.04c.04-.25.08-.49.14-.73l-2.46-2.24.38-.93 3.33.16c.11-.19.23-.37.36-.54l-1.42-3.02.71-.7 3.02 1.41c.17-.13.35-.25.54-.36l-.16-3.33.93-.38 2.24 2.46s.42-.1.64-.13L41.5 42h1zM42 53a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"></path>
+                        <clipPath id="terminalIconClipPath">
+                          <use href="#terminalIconCode"></use>
+                        </clipPath>
+                      </defs>
+                  
+                      <use href="#terminalIconCode" fill="#00d4ff"></use>
+                      <use href="#terminalIconCursor" fill="#0a2540" data-js-target="TerminalIcon.cursor"></use>
+                      <use href="#terminalIconGear" fill="#7a73ff" transform-origin="42 55" data-js-target-list="TerminalIcon.gears"></use>
+                      <g clip-path="url(#terminalIconClipPath)">
+                        <use href="#terminalIconGear" fill="#cff" transform-origin="42 55" data-js-target-list="TerminalIcon.gears"></use>
+                      </g>
+                      </svg>
+                </div>
+                <div class="outil-description">
+                    <h4>Utilisez Stripe avec votre suite d'outils</h4>
+                    <p>Nous proposons de nombreuses bibliothèques client et serveur, dont React, PHP, .NET et iOS. </p>
+                    <a href="">Voir les bibliothèques <i class="fa-solid fa-chevron-right"></i></a>
+                </div>   
+            </div>
+            <div class="outil outil2">
+                <div class="animatedIcon">
+                    <svg class="Icon " width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="BrowserWithNoCodeIconClipPath-">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4 2C1.79086 2 0 3.79086 0 6V26C0 28.2091 1.79086 30 4 30H32C34.2091 30 36 28.2091 36 26V6C36 3.79086 34.2091 2 32 2H4ZM4.5 8C5.32843 8 6 7.32843 6 6.5C6 5.67157 5.32843 5 4.5 5C3.67157 5 3 5.67157 3 6.5C3 7.32843 3.67157 8 4.5 8ZM11 6.5C11 7.32843 10.3284 8 9.5 8C8.67157 8 8 7.32843 8 6.5C8 5.67157 8.67157 5 9.5 5C10.3284 5 11 5.67157 11 6.5ZM14.5 8C15.3284 8 16 7.32843 16 6.5C16 5.67157 15.3284 5 14.5 5C13.6716 5 13 5.67157 13 6.5C13 7.32843 13.6716 8 14.5 8Z" class="Icon__blendBackground" 
+                        style="fill: #00d4ff;"></path></clipPath></defs><path fill-rule="evenodd" clip-rule="evenodd" d="M4 2C1.79086 2 0 3.79086 0 6V26C0 28.2091 1.79086 30 4 30H32C34.2091 30 36 28.2091 36 26V6C36 3.79086 34.2091 2 32 2H4ZM4.5 8C5.32843 8 6 7.32843 6 6.5C6 5.67157 5.32843 5 4.5 5C3.67157 5 3 5.67157 3 6.5C3 7.32843 3.67157 8 4.5 8ZM11 6.5C11 7.32843 10.3284 8 9.5 8C8.67157 8 8 7.32843 8 6.5C8 5.67157 8.67157 5 9.5 5C10.3284 5 11 5.67157 11 6.5ZM14.5 8C15.3284 8 16 7.32843 16 6.5C16 5.67157 15.3284 5 14.5 5C13.6716 5 13 5.67157 13 6.5C13 7.32843 13.6716 8 14.5 8Z" class="Icon__blendBackground" style="fill: #00d4ff;"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M40 18.5C40 15.4624 37.5376 13 34.5 13H17.5C14.4624 13 12 15.4624 12 18.5C12 21.5376 14.4624 24 17.5 24H34.5C37.5376 24 40 21.5376 40 18.5ZM14 18.5C14 20.433 15.567 22 17.5 22C19.433 22 21 20.433 21 18.5C21 16.567 19.433 15 17.5 15C15.567 15 14 16.567 14 18.5ZM12 31.5C12 28.4624 14.4624 26 17.5 26H34.5C37.5376 26 40 28.4624 40 31.5C40 34.5376 37.5376 37 34.5 37H17.5C14.4624 37 12 34.5376 12 31.5ZM31 31.5C31 33.433 32.567 35 34.5 35C36.433 35 38 33.433 38 31.5C38 29.567 36.433 28 34.5 28C32.567 28 31 29.567 31 31.5Z" class="Icon__blendForeground" style="fill: #7a73ff;"></path><g clip-path="url(#BrowserWithNoCodeIconClipPath-)"><path fill-rule="evenodd" clip-rule="evenodd" d="M40 18.5C40 15.4624 37.5376 13 34.5 13H17.5C14.4624 13 12 15.4624 12 18.5C12 21.5376 14.4624 24 17.5 24H34.5C37.5376 24 40 21.5376 40 18.5ZM14 18.5C14 20.433 15.567 22 17.5 22C19.433 22 21 20.433 21 18.5C21 16.567 19.433 15 17.5 15C15.567 15 14 16.567 14 18.5ZM12 31.5C12 28.4624 14.4624 26 17.5 26H34.5C37.5376 26 40 28.4624 40 31.5C40 34.5376 37.5376 37 34.5 37H17.5C14.4624 37 12 34.5376 12 31.5ZM31 31.5C31 33.433 32.567 35 34.5 35C36.433 35 38 33.433 38 31.5C38 29.567 36.433 28 34.5 28C32.567 28 31 29.567 31 31.5Z" class="Icon__blendForeground" style="fill: #cff;"></path></g></svg>
+                </div>
+                <div class="outil-description">
+                    <h4>Essayez les options sans code</h4>
+                    <p>Personnalisez et déployez des interfaces de paiement directement depuis le Dashboard Stripe.</p>
+                    <a href="">Découvrir les solutions sans code <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                </div>
+            <div class="outil outil3">
+                <div class="animatedIcon">
+                    <svg class="AnimatedIcon__icon" width="96" height="96" preserveAspectRatio="xMinYMin" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" data-js-controller="BlocksIcon">
+                        <defs>
+                        <path id="blocksIconBack" d="M30.68 31.37l9 4.15A4 4 0 0 1 42 39.15v10.89a4 4 0 0 1-2.32 3.63l-9 4.15a4 4 0 0 1-3.36 0l-9-4.15A4 4 0 0 1 16 50.04V39.15a4 4 0 0 1 .35-1.62L29 43.36v-1.54l-11.85-5.47a4 4 0 0 1 1.17-.83l9-4.15a4 4 0 0 1 3.36 0z"></path>
+                        <path id="blocksIconFront" d="M55 45.15v10.89a4 4 0 0 1-2.32 3.63l-9 4.15a4 4 0 0 1-3.36 0l-9-4.15A4 4 0 0 1 29 56.04V45.15a4 4 0 0 1 .35-1.62L42 49.37l12.65-5.84a4 4 0 0 1 .35 1.62zm-11.32-7.78l9 4.15a4 4 0 0 1 1.17.83L42 47.82l-11.86-5.47a4 4 0 0 1 1.18-.83l9-4.15a4 4 0 0 1 3.36 0z"></path>
+                        <clipPath id="blocksIconClipPath">
+                          <use data-js-target-list="BlocksIcon.firstBackBlocks" href="#blocksIconFront" transform="translate(-13, -6)" data-js-bbox="firstHiddenBlock"></use>
+                          <use data-js-target-list="BlocksIcon.secondBackBlocks" href="#blocksIconFront" transform="translate(-65, -30)" data-js-bbox="secondHiddenBlock"></use>
+                        </clipPath>
+                      </defs>
+                  
+                      <use data-js-target="BlocksIcon.firstHiddenBlock" href="#blocksIconFront" transform="translate(-13, -6)" style="visibility: hidden;"></use>
+                      <use data-js-target="BlocksIcon.secondHiddenBlock" href="#blocksIconFront" transform="translate(-65, -30)" style="visibility: hidden;"></use>
+                  
+                      <use data-js-target-list="BlocksIcon.secondBackBlocks" href="#blocksIconFront" fill="#00d4ff" style="opacity: 0;"></use>
+                      <use data-js-target-list="BlocksIcon.secondFrontBlocks" href="#blocksIconFront" fill="#7a73ff" style="opacity: 0;"></use>
+                      <use data-js-target-list="BlocksIcon.firstBackBlocks" href="#blocksIconFront" fill="#00d4ff" transform="translate(-13, -6)"></use>
+                      <use data-js-target-list="BlocksIcon.firstFrontBlocks" href="#blocksIconFront" fill="#7a73ff"></use>
+                      <g clip-path="url(#blocksIconClipPath)">
+                        <use data-js-target-list="BlocksIcon.firstFrontBlocks" href="#blocksIconFront" fill="#cff"></use>
+                        <use data-js-target-list="BlocksIcon.secondFrontBlocks" href="#blocksIconFront" fill="#cff" style="opacity: 0;"></use>
+                      </g>
+                      </svg>
+                </div>
+                <div class="outil-description">
+                    <h4>Découvrez les intégrations préconfigurées</h4>
+                    <p>Intégrez votre solution à des systèmes comme Adobe, Salesforce et NetSuiteou synchronisez les données de Stripe vers votre entrepôt de données. </p>
+                    <a href="">Afficher les connecteurs <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="outil outil4">
+                <div class="animatedIcon">
+                    <svg class="Icon " width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="BrowserWithCodeIconClipPath-"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 2C1.79086 2 0 3.79086 0 6V26C0 28.2091 1.79086 30 4 30H32C34.2091 30 36 28.2091 36 26V6C36 3.79086 34.2091 2 32 2H4ZM4.5 8C5.32843 8 6 7.32843 6 6.5C6 5.67157 5.32843 5 4.5 5C3.67157 5 3 5.67157 3 6.5C3 7.32843 3.67157 8 4.5 8ZM11 6.5C11 7.32843 10.3284 8 9.5 8C8.67157 8 8 7.32843 8 6.5C8 5.67157 8.67157 5 9.5 5C10.3284 5 11 5.67157 11 6.5ZM14.5 8C15.3284 8 16 7.32843 16 6.5C16 5.67157 15.3284 5 14.5 5C13.6716 5 13 5.67157 13 6.5C13 7.32843 13.6716 8 14.5 8Z" class="Icon__blendBackground" style="fill: #00d4ff;"></path></clipPath></defs><path fill-rule="evenodd" clip-rule="evenodd" d="M4 2C1.79086 2 0 3.79086 0 6V26C0 28.2091 1.79086 30 4 30H32C34.2091 30 36 28.2091 36 26V6C36 3.79086 34.2091 2 32 2H4ZM4.5 8C5.32843 8 6 7.32843 6 6.5C6 5.67157 5.32843 5 4.5 5C3.67157 5 3 5.67157 3 6.5C3 7.32843 3.67157 8 4.5 8ZM11 6.5C11 7.32843 10.3284 8 9.5 8C8.67157 8 8 7.32843 8 6.5C8 5.67157 8.67157 5 9.5 5C10.3284 5 11 5.67157 11 6.5ZM14.5 8C15.3284 8 16 7.32843 16 6.5C16 5.67157 15.3284 5 14.5 5C13.6716 5 13 5.67157 13 6.5C13 7.32843 13.6716 8 14.5 8Z" class="Icon__blendBackground" style="fill: #00d4ff;"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M24.5573 17C24.2261 17 23.9341 17.2173 23.839 17.5345L18.289 36.0345C18.1446 36.5157 18.5049 37 19.0073 37H21.4413C21.7725 37 22.0645 36.7827 22.1597 36.4655L27.7097 17.9655C27.854 17.4843 27.4937 17 26.9913 17H24.5573ZM13.7428 19.7011C14.0238 19.3968 14.4983 19.3778 14.8026 19.6587L16.6396 21.3544C16.944 21.6354 16.963 22.1099 16.682 22.4142L12.443 27.0066L16.682 31.5989C16.963 31.9033 16.944 32.3778 16.6396 32.6587L14.8026 34.3544C14.4983 34.6354 14.0238 34.6164 13.7428 34.312L7.4689 27.5153C7.2037 27.228 7.20371 26.7852 7.4689 26.4979L13.7428 19.7011ZM32.2558 19.7011C31.9749 19.3968 31.5004 19.3778 31.196 19.6587L29.359 21.3544C29.0546 21.6354 29.0357 22.1099 29.3166 22.4142L33.5557 27.0066L29.3166 31.5989C29.0357 31.9033 29.0546 32.3778 29.359 32.6587L31.196 34.3544C31.5004 34.6354 31.9749 34.6164 32.2558 34.312L38.5297 27.5153C38.7949 27.228 38.7949 26.7852 38.5297 26.4979L32.2558 19.7011Z" class="Icon__blendForeground" style="fill: #7a73ff;"></path><g clip-path="url(#BrowserWithCodeIconClipPath-)"><path fill-rule="evenodd" clip-rule="evenodd" d="M24.5573 17C24.2261 17 23.9341 17.2173 23.839 17.5345L18.289 36.0345C18.1446 36.5157 18.5049 37 19.0073 37H21.4413C21.7725 37 22.0645 36.7827 22.1597 36.4655L27.7097 17.9655C27.854 17.4843 27.4937 17 26.9913 17H24.5573ZM13.7428 19.7011C14.0238 19.3968 14.4983 19.3778 14.8026 19.6587L16.6396 21.3544C16.944 21.6354 16.963 22.1099 16.682 22.4142L12.443 27.0066L16.682 31.5989C16.963 31.9033 16.944 32.3778 16.6396 32.6587L14.8026 34.3544C14.4983 34.6354 14.0238 34.6164 13.7428 34.312L7.4689 27.5153C7.2037 27.228 7.20371 26.7852 7.4689 26.4979L13.7428 19.7011ZM32.2558 19.7011C31.9749 19.3968 31.5004 19.3778 31.196 19.6587L29.359 21.3544C29.0546 21.6354 29.0357 22.1099 29.3166 22.4142L33.5557 27.0066L29.3166 31.5989C29.0357 31.9033 29.0546 32.3778 29.359 32.6587L31.196 34.3544C31.5004 34.6354 31.9749 34.6164 32.2558 34.312L38.5297 27.5153C38.7949 27.228 38.7949 26.7852 38.5297 26.4979L32.2558 19.7011Z" class="Icon__blendForeground" style="fill: #cff;"></path></g></svg>
+                </div>
+                <div class="outil-description">
+                    <h4>Créez une application sur Stripe</h4>
+                    <p>Créez une interface ou une intégration back-end personnalisée dans Stripe. Réservez-la à votre équipe ou proposez-la sur Stripe App Marketplace.</p>
+                    <a href="">En savoir plus sur les applications  <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="separator-bottom"></div>
+    </section>
+    </main>
+    <footer class="index-footer">
+            <div class="liens liens-general">
+                <a href="">États-Unis</a>
+                <a href="">Français (France)</a>
+            </div>
+
+            <div class="liens liens-produits">
+                <h4>Produits</h4>
+                <a href="">Atlas</a>
+                <a href="">Billing</a>
+                <a href="">Capital</a>
+                <a href="">Checkout</a>
+                <a href="">Climate</a>
+                <a href="">Connect</a>
+                <a href="">Corporate Card</a>
+                <a href="">Data Pipeline</a>
+                <a href="">Elements</a>
+                <a href="">Financial Connections</a>
+                <a href="">Identity</a>
+                <a href="">Invoicing</a>
+                <a href="">Issuing</a>
+                <a href="">Link</a>
+                <a href="">Payments</a>
+                <a href="">Payment Links</a>
+                <a href="">Payouts</a>
+                <a href="">Tarifs</a>
+                <a href="">Radar</a>
+                <a href="">Revenue Recognition</a>
+                <a href="">Sigma</a>
+                <a href="">Stripe Tax</a>
+                <a href="">Terminal</a>
+                <a href="">Treasury</a>
+            </div>
+
+            <div class="liens liens-solutions">
+                <h4>Solutions</h4>    
+                <a href="">Grandes entreprises</a>
+                <a href="">SaaS</a>
+                <a href="">Places de marché</a>
+                <a href="">Économie créative</a>
+                <a href="">Automatisation des opérations financières</a>
+                <a href="">Plateformes</a>
+                <a href="">E-commerce</a>
+                <a href="">Cryptomonnaie</a>
+                <a href="">Services financiers intégrés</a>
+                <a href="">Entreprises internationales</a>
+
+                <h4>Intégrations et solutions personnalisées</h4>
+
+                <a href="">App Marketplace</a>
+                <a href="">Partner Ecosystem</a>
+                <a href="">Services aux entreprises</a>
+
+                <h4>Développeurs</h4>
+                <a href="">Documentation</a>
+                <a href="">Documentation de l'API</a>
+                <a href="">État de l'API</a>
+                <a href="">Journal des modifications de l'API</a>
+                <a href="">Créer une Stripe App</a>
+            </div>
+
+            <div class="liens liens-ressources">
+                <h4>Ressources</h4>    
+                <a href="">Centre d'assistance</a>
+                <a href="">Plans d'assistance</a>
+                <a href="">Guides</a>
+                <a href="">Témoignages de clients</a>
+                <a href="">Blog</a>
+                <a href="">Conférence annuelle</a>
+                <a href="">Contacter l'équipe commerciale</a>
+                <a href="">Confidentialité et conditions</a>
+                <a href="">Licences</a>
+                <a href="">COVID-19</a>
+                <a href="">Plan du site</a>
+                <a href="">Paramètres des cookies</a>
+                <a href="">Vos choix relatifs à la vie privée</a>
+
+                <h4>Entrerise</h4>
+                <a href="">Carrières</a>
+                <a href="">Presse</a>
+                <a href="">Stripe Press</a>
+                <a href="">Devenir partenaire</a>
+            </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
